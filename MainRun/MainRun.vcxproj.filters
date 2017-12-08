@@ -30,6 +30,15 @@
     <ClInclude Include="Recoder.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="stuct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JarkQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +51,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Recoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JarkQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

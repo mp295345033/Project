@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "MainRun.h"
+#include "Recoder.h"
 
 
 // 这是导出变量的一个示例
@@ -16,7 +17,14 @@ MAINRUN_API int fnMainRun(void)
 
 // 这是已导出类的构造函数。
 // 有关类定义的信息，请参阅 MainRun.h
-CMainRun::CMainRun()
+//CMainRun::CMainRun()
+//{
+//	return;
+//}
+
+
+MAINRUN_API void  API_DoRecoder(void)
 {
-	return;
+	shared_ptr<Recoder> rec = make_shared<Recoder>();
+	rec->DoRecoder();
 }

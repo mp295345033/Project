@@ -11,12 +11,14 @@
 #endif
 
 // 此类是从 MainRun.dll 导出的
-class MAINRUN_API CMainRun {
-public:
-	CMainRun(void);
-	// TODO:  在此添加您的方法。
-};
+//class MAINRUN_API CMainRun {
+//public:
+//	CMainRun(void);
+//	// TODO:  在此添加您的方法。
+//};
 
 extern MAINRUN_API int nMainRun;
 
 MAINRUN_API int fnMainRun(void);
+
+MAINRUN_API void API_DoRecoder();
